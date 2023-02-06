@@ -1,53 +1,109 @@
 [{
   "_id": {
-    "$oid": "63e001fb9677e3bd62b552fe"
-  },
-  "title": "KTM SX 450",
-  "info": "врууум! какой мощный",
-  "producer": "KTM",
-  "model": "KTM SX 450",
-  "colors": [
-    "orange",
-    "white",
-    "black"
-  ],
-  "price": "1.050.000",
-  "power": "60",
-  "cub": "450",
-  "year": "2018",
-  "type": "cross"
-},{
-  "_id": {
     "$oid": "63e002b69677e3bd62b552ff"
   },
-  "title": "KTM Duke 250",
-  "info": "резвее, чем кажется",
-  "producer": "KTM",
-  "model": "KTM Duke 250",
-  "colors": [
-    "orange",
-    "white",
-    "black"
-  ],
-  "price": "670.000",
-  "power": "50",
-  "cub": "250",
-  "year": "2020",
-  "type": "sport"
+  "engine": "Электродвигатель",
+  "privod": "Полный",
+  "speed-to-100": "4,3 с",
+  "model": "BMW XM",
+  "price": "31.000.000₽",
+  "power": "750 л.с.",
+  "year": "2023",
+  "nalog": "112 000 рублей в год"
 },{
   "_id": {
-    "$oid": "63e002fb9677e3bd62b55300"
+    "$oid": "63e149d17d75b52faa6ac987"
   },
-  "title": "Yamaha WR 450",
-  "info": "точно не гитара",
-  "producer": "Yamaha",
-  "model": "Yamaha WR 450",
-  "colors": [
-    "blue"
-  ],
-  "price": "1.100.000",
-  "power": "62",
-  "cub": "450",
-  "year": "2017",
-  "type": "enduro"
+  "engine": "Бензиновый двигатель",
+  "privod": "Полный",
+  "speed-to-100": "3,8 с",
+  "model": "BMW X5 M F95",
+  "price": "13.820.000₽",
+  "power": "600 л.с.",
+  "year": "2022",
+  "nalog": "93 000 рублей в год"
+},{
+  "_id": {
+    "$oid": "63e14bae7d75b52faa6ac988"
+  },
+  "engine": "Бензиновый двигатель",
+  "privod": "Полный",
+  "speed-to-100": "4,1 с",
+  "model": "BMW X4",
+  "price": "5.700.000₽",
+  "power": "326 л.с.",
+  "year": "2022",
+  "nalog": "49 000 рублей в год"
+},{
+  "_id": {
+    "$oid": "63e14d167d75b52faa6ac989"
+  },
+  "engine": "Бензиновый двигатель",
+  "privod": "Задний",
+  "speed-to-100": "2,9 с",
+  "model": "Ferrari F8 Tributo",
+  "price": "29.990.000₽",
+  "power": "720 л.с.",
+  "year": "2021",
+  "nalog": "108 000 рублей в год"
+},{
+  "_id": {
+    "$oid": "63e14ea27d75b52faa6ac98a"
+  },
+  "engine": "Бензиновый двигатель",
+  "privod": "Задний",
+  "speed-to-100": "3,4 с",
+  "model": "Ferrari Roma",
+  "price": "34.900.000₽",
+  "power": "620 л.с.",
+  "year": "2021",
+  "nalog": "93 000 рублей в год"
+},{
+  "_id": {
+    "$oid": "63e14f2b7d75b52faa6ac98b"
+  },
+  "engine": "Электродвигатель",
+  "privod": "Задний",
+  "speed-to-100": "2,8 с",
+  "model": "Ferrari 296 GTB",
+  "price": "28.400.000₽",
+  "power": "830 л.с.",
+  "year": "2022",
+  "nalog": "124 000 рублей в год"
+},{
+  "_id": {
+    "$oid": "63e1507b7d75b52faa6ac98c"
+  },
+  "engine": "Бензиновый двигатель",
+  "privod": "Полный",
+  "speed-to-100": "4,3 с",
+  "model": "Mercedes AMG H247",
+  "price": "4.450.000₽",
+  "power": "421 л.с.",
+  "year": "2021",
+  "nalog": "63 000 рублей в год"
+},{
+  "_id": {
+    "$oid": "63e151a17d75b52faa6ac98d"
+  },
+  "engine": "Бензиновый двигатель",
+  "privod": "Полный",
+  "speed-to-100": "4,2 с",
+  "model": "Mercedes AMG W177",
+  "price": "5.110.000₽",
+  "power": "421 л.с.",
+  "year": "2019",
+  "nalog": "63 000 рублей в год"
+},{
+  "_id": {
+    "$oid": "63e152517d75b52faa6ac98e"
+  },
+  "engine": "Бензиновый двигатель",
+  "privod": "Передний",
+  "speed-to-100": "8,6 с",
+  "model": "Mercedes A-Класс",
+  "price": "3.220.000₽",
+  "power": "122 л.с.",
+  "year": "2018",
+  "nalog": "4 000 рублей в год"
 }]
