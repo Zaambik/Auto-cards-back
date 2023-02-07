@@ -5,29 +5,26 @@ export interface ProductModel extends Base {}
 
 export class ProductModel extends TimeStamps {
    @prop()
-   title: string;
+   engine: string;
 
    @prop()
-   info: string;
+   privod: string;
+
+   @prop()
+   speed: string;
 
    @prop()
    model: string;
 
    @prop()
-   year: string;
-
-   @prop()
-   type: string;
+   price: string;
 
    @prop()
    power: string;
 
    @prop()
-   cub: string;
+   year: string;
 
    @prop()
-   colors: string[];
-
-   @prop()
-   price: string;
+   nalog: string;
 }

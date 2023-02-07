@@ -1,30 +1,27 @@
-import { prop } from '@typegoose/typegoose';
 import { IsString } from 'class-validator';
 
 export class ProductDto {
    @IsString()
-   title: string;
+   engine: string;
 
    @IsString()
-   info: string;
+   privod: string;
+
+   @IsString()
+   speed: string;
 
    @IsString()
    model: string;
 
    @IsString()
-   year: string;
-
-   @IsString()
-   type: string;
+   price: string;
 
    @IsString()
    power: string;
 
    @IsString()
-   cub: string;
-
-   colors: string[];
+   year: string;
 
    @IsString()
-   price: string;
+   nalog: string;
 }

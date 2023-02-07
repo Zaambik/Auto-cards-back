@@ -13,7 +13,7 @@ import { ConfigModule } from '@nestjs/config';
       {
         typegooseClass: ProductModel,
         schemaOptions: {
-          collection: 'catalog',
+          collection: 'products',
         },
       },
     ]),
