@@ -14,7 +14,7 @@ export class ProductDto {
    model: string;
 
    @IsString()
-   price: string;
+   price: number;
 
    @IsString()
    power: string;

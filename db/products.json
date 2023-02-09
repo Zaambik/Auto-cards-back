@@ -7,7 +7,7 @@
   "speed": "4,3 с",
   "model": "BMW XM",
   "image": "https://raw.githubusercontent.com/Zaambik/art-card/master/src/components/pages/catalog/img/BMWXM.png",
-  "price": "31 000 000 ",
+  "price": 31000000,
   "power": "750 л.с.",
   "year": "2023",
   "nalog": "112 000 рублей в год"
@@ -20,7 +20,7 @@
   "speed": "3,8 с",
   "model": "BMW X5 M F95",
   "image": "https://raw.githubusercontent.com/Zaambik/art-card/master/src/components/pages/catalog/img/BMWX5M1.png",
-  "price": "13 820 000 ",
+  "price": 13820000,
   "power": "600 л.с.",
   "year": "2022",
   "nalog": "93 000 рублей в год"
@@ -33,7 +33,7 @@
   "speed": "4,1 с",
   "model": "BMW X4",
   "image": "https://raw.githubusercontent.com/Zaambik/art-card/master/src/components/pages/catalog/img/BMWX4.png",
-  "price": "5 700 000 ",
+  "price": 5700000,
   "power": "326 л.с.",
   "year": "2022",
   "nalog": "49 000 рублей в год"
@@ -46,7 +46,7 @@
   "speed": "2,9 с",
   "model": "Ferrari F8 Tributo",
   "image": "https://raw.githubusercontent.com/Zaambik/art-card/master/src/components/pages/catalog/img/FerrariF8Tributo.png",
-  "price": "29 990 000 ",
+  "price": 29990000,
   "power": "720 л.с.",
   "year": "2021",
   "nalog": "108 000 рублей в год"
@@ -59,7 +59,7 @@
   "speed": "3,4 с",
   "model": "Ferrari Roma",
   "image": "https://raw.githubusercontent.com/Zaambik/art-card/master/src/components/pages/catalog/img/FerrariRoma.png",
-  "price": "34 900 000 ",
+  "price": 34900000,
   "power": "620 л.с.",
   "year": "2021",
   "nalog": "93 000 рублей в год"
@@ -72,7 +72,7 @@
   "speed": "2,8 с",
   "model": "Ferrari 296 GTB",
   "image": "https://raw.githubusercontent.com/Zaambik/art-card/master/src/components/pages/catalog/img/Ferrari296GTB.png",
-  "price": "28 400 000 ",
+  "price": 28400000,
   "power": "830 л.с.",
   "year": "2022",
   "nalog": "124 000 рублей в год"
@@ -85,7 +85,7 @@
   "speed": "4,3 с",
   "model": "Mercedes AMG H247",
   "image": "https://raw.githubusercontent.com/Zaambik/art-card/master/src/components/pages/catalog/img/MercedesAMGH247.png",
-  "price": "4 450 000 ",
+  "price": 4450000,
   "power": "421 л.с.",
   "year": "2021",
   "nalog": "63 000 рублей в год"
@@ -98,7 +98,7 @@
   "speed": "4,2 с",
   "model": "Mercedes AMG W177",
   "image": "https://raw.githubusercontent.com/Zaambik/art-card/master/src/components/pages/catalog/img/MercedesAMGW177.png",
-  "price": "5 110 000 ",
+  "price": 5110000,
   "power": "421 л.с.",
   "year": "2019",
   "nalog": "63 000 рублей в год"
@@ -111,7 +111,7 @@
   "speed": "8,6 с",
   "model": "Mercedes A-Класс",
   "image": "https://raw.githubusercontent.com/Zaambik/art-card/master/src/components/pages/catalog/img/MercedesAClass.png",
-  "price": "3 220 000 ",
+  "price": 3220000,
   "power": "122 л.с.",
   "year": "2018",
   "nalog": "4 000 рублей в год"

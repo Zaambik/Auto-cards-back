@@ -11,7 +11,11 @@ export class ProductsService {
       private readonly ProductModel: ModelType<ProductModel>,
    ) {}
 
-   async getAll(searchTerm?: string) {
+   async getAll(searchTerm?: string, colorsFilter?: string, modelFilter?: string, priceFilter?: string) {
+      let colorsOptions = {};
+      let modelOptions = {};
+      let priceOptions = {}
+
       if (searchTerm) {
          return this.ProductModel.find({
             $or: [
@@ -31,9 +35,31 @@ export class ProductsService {
          }).exec();
       }
 
-      return this.ProductModel.find().exec();
-   }
+      if (colorsFilter) {
+         const options = colorsFilter.split(',');
+         colorsOptions = {
+            $or: options.map((item) => ({ colors: new RegExp(item, 'i') })),
+         };
+      }
 
+      if (modelFilter) {
+         const options = modelFilter.split(',');
+         modelOptions = {
+            $or: options.map((item) => ({ model: new RegExp(item, 'i') })),
+         };
+      }
+
+      if (priceFilter) {
+         const options = priceFilter.split(',');
+         priceOptions = {
+            price: { $gte: Number(options[0]), $lt: Number(options[1]) },
+         };
+      }
+
+      return this.ProductModel.find({
+         $and: [{ ...priceOptions }, { ...modelOptions }, { ...colorsOptions }],
+      }).exec();
+   }
    async byId(_id: Types.ObjectId): Promise<ProductModel> {
       const product = await this.ProductModel.findById(_id);
       return product;
