@@ -14,6 +14,9 @@ export class ProductDto {
    model: string;
 
    @IsString()
+   image: string;
+
+   @IsString()
    price: number;
 
    @IsString()

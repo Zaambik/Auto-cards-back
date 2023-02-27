@@ -1,8 +1,9 @@
 import { ModelType } from '@typegoose/typegoose/lib/types';
 import { ProductModel } from './products.model';
 import { InjectModel } from 'nestjs-typegoose';
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { Types } from 'mongoose';
+import { ProductDto } from './products.dto';
 
 @Injectable()
 export class ProductsService {
@@ -64,4 +65,29 @@ export class ProductsService {
       const product = await this.ProductModel.findById(_id);
       return product;
    }
+
+   async create(param: ProductDto) {
+      const defaultValue: ProductDto = {
+         engine: param.engine,
+         privod: param.privod,
+         speed: param.speed,
+         model: param.model,
+         image: param.image,
+         price: Number(param.price),
+         power: param.power,
+         year: param.year,
+         nalog: param.nalog,
+      };
+      
+
+      const product = await this.ProductModel.create(defaultValue);
+      return product._id;
+   }
+
+   async delete(_id: string) {
+      const deleteProduct = await this.ProductModel.findByIdAndDelete(_id).exec();
+      if (!deleteProduct) throw new NotFoundException('product not found');
+      return { _id: deleteProduct._id, title: deleteProduct.model };
+   }
+
 }

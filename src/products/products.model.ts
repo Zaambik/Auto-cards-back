@@ -17,6 +17,9 @@ export class ProductModel extends TimeStamps {
    model: string;
 
    @prop()
+   image: string;
+
+   @prop()
    price: number;
 
    @prop()
